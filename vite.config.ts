@@ -13,7 +13,7 @@ export default defineConfig(() => {
       },
     },
 
-    base: "/portofolio",
+    base: "/",
     server: {
       host: "0.0.0.0",
       port: 5173,

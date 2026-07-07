@@ -26,7 +26,7 @@ export default function ContactSection() {
 
           {/* CV BUTTON */}
           <div className="mt-8">
-            <a href="/portofolio/cv.pdf" download>
+            <a href="/cv.pdf" download>
               <Button
                 className="
                 px-5 py-3 

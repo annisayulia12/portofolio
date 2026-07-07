@@ -6,12 +6,8 @@ export default function HeroPhoto() {
       <div className="absolute inset-0 bg-blush/20 blur-2xl rounded-[40%] z-0" />
 
       {/* IMAGE (layer tengah) */}
-      <div className="absolute inset-0 rounded-t-full overflow-hidden z-10">
-        <img
-          alt="Hero"
-          src="/portofolio/me.jpeg"
-          className="w-full h-full object-cover"
-        />
+      <div className="absolute inset-0 rounded-t-full z-10">
+        <img alt="Hero" src="/me.jpeg" className="w-full h-full object-cover" />
       </div>
 
       {/* DECOR ORANGE (DEPAN IMAGE) */}

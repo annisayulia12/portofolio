@@ -12,11 +12,7 @@ export default function LandingPage() {
     <BackgroundLayout>
       {/* NAVBAR */}
       <nav className="sticky top-0 z-50 flex items-center justify-between px-10 py-5 bg-white/30 backdrop-blur-xl border-b border-white/20">
-        <img
-          src="/portofolio/icon.png"
-          className="h-12 object-contain"
-          alt="PORTFOLIO"
-        />
+        <img src="/icon.png" className="h-12 object-contain" alt="PORTFOLIO" />
 
         <div className="flex-1 flex justify-center">
           <NavbarTabs />
